@@ -754,3 +754,34 @@ hr {
   border: 0;
   background-color: #8c8c8a;
 }
+
+.cover {
+  width: 100vw;
+  margin-bottom: 10rem;
+  display: flex;
+}
+
+.cover:nth-child(1) {
+  margin-top: 10vh;
+  transform: rotate(-2deg);
+  background-color: #ff3796;
+}
+
+.cover:nth-child(2) {
+  transform: rotate(2deg);
+  background-color: #381fd1;
+  color: #fff;
+  justify-content: flex-end;
+}
+
+.cover:nth-child(3) {
+  transform: rotate(-2deg);
+  background-color: #ebeb9c;
+}
+
+.cover:nth-child(4) {
+  transform: rotate(2deg);
+  background-color: #00faac;
+  justify-content: flex-end;
+  margin-bottom: 50vh;
+}
