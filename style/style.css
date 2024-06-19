@@ -627,6 +627,7 @@ button:hover {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 100px;
 }
 
 .img2 {
@@ -713,6 +714,26 @@ iframe {
 #video1 {
   aspect-ratio: 560/315;
   width: 1230px;
-  height: 697px;
+  height: 790px;
+  padding-bottom: 100px;
+}
+
+.footer_5 {
+  margin-bottom: 50px;
+}
+
+.img5 {
+  width: 600px;
+}
+
+.grains {
+  display: grid;
+  -moz-column-gap: 14rem;
+       column-gap: 14rem;
+  row-gap: 1.5rem;
+  grid-template-columns: 25rem repeat(auto-fit, minmax(500px, 1fr));
+  align-items: center;
+  margin-inline: auto;
+  max-width: 1230px;
   padding-bottom: 100px;
 }
