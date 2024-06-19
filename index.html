@@ -7,45 +7,12 @@
 
     <link rel="stylesheet" href="./style/style.css" />
     <script src="practice.js"></script>
-    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
     <link
       rel="stylesheet"
-      type="text/css"
-      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script>
-      $('.mainSlide').slick({
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 3,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1,
-            },
-          },
-        ],
-      });
-    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <script
     src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
@@ -248,16 +215,95 @@
           </div>
         </div>
       </div>
-      <div class="mainSlide">
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
-        <div><img src="./image/1.JPG" class="img1" /></div>
+      <!-- Slider main container -->
+
+      <div class="swiper">
+        <p class="title title_3">MOMENTO</p>
+        <p class="title title_4">
+          세대 간 지식 공유와 직업 기술 교류를 돕는 모바일 앱 서비스 홍보
+          모션그래픽
+        </p>
+        <div class="container_3">
+          <div class="sidebar2">
+            <div class="subbox2">
+              <ol class="subbox_5">
+                <li>TYPES</li>
+                <li>RINNING TIME</li>
+                <li>WORK PERIOD</li>
+                <li>PROGRAM</li>
+              </ol>
+              <ol class="subbox_6">
+                <li>모션그래픽</li>
+                <li>50"</li>
+                <li>2023. 7 ~ 11</li>
+                <li>AE, AI</li>
+              </ol>
+              <ol class="subbox_7">
+                <li class="subbox_5">GRAPHIC PATTERN</li>
+                <li>
+                  유리 느낌의 그레인 텍스쳐를 사용해<br />
+                  투명함을 표현.
+                </li>
+              </ol>
+              <ol class="subbox_8">
+                <li class="subbox_5">DESIGN MEANS</li>
+                <li>
+                  청년층과 중장년층이 서로 도우며 상생하는<br />
+                  모바일 앱 서비스의 취지에 맞춰 런쳐 아이콘과<br />
+                  회로도에 모션 적용.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./image/1.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/2.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/3.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/4.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/5.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/6.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/7.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/8.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/9.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/10.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/11.JPG" class="img2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./image/12.JPG" class="img2" />
+          </div>
+
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+
+        <!-- If we need scrollbar -->
       </div>
     </main>
     <div class="footer_container">
@@ -366,6 +412,119 @@
     <div class="cursor pointed"></div>
 
     <script src="practice.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./slick/slick.js"></script>
+    <script src="custom.js"></script>
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 3,
+        grid: {
+          rows: 2,
+        },
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      let observer = new IntersectionObserver((e) => {
+        e.forEach((박스) => {
+          if (박스.isIntersecting) {
+            박스.target.style.opacity = 1;
+          } else {
+            박스.target.style.opacity = 0;
+          }
+          박스.intersectionRatio;
+        });
+      });
+      let div = document.querySelectorAll('div');
+      observer.observe(div[0]);
+      observer.observe(div[1]);
+      observer.observe(div[2]);
+      observer.observe(div[3]);
+      observer.observe(div[4]);
+      observer.observe(div[5]);
+      observer.observe(div[6]);
+      observer.observe(div[7]);
+      observer.observe(div[8]);
+      observer.observe(div[9]);
+      observer.observe(div[10]);
+      observer.observe(div[11]);
+      observer.observe(div[12]);
+      observer.observe(div[13]);
+      observer.observe(div[14]);
+      observer.observe(div[16]);
+      observer.observe(div[17]);
+      observer.observe(div[18]);
+      observer.observe(div[19]);
+      observer.observe(div[20]);
+      observer.observe(div[21]);
+      observer.observe(div[22]);
+      observer.observe(div[23]);
+      observer.observe(div[24]);
+      observer.observe(div[25]);
+      observer.observe(div[26]);
+      observer.observe(div[27]);
+      observer.observe(div[28]);
+      observer.observe(div[29]);
+      observer.observe(div[30]);
+      observer.observe(div[31]);
+      observer.observe(div[32]);
+      observer.observe(div[33]);
+      observer.observe(div[34]);
+      observer.observe(div[35]);
+      observer.observe(div[36]);
+      observer.observe(div[37]);
+      observer.observe(div[38]);
+      observer.observe(div[39]);
+      observer.observe(div[40]);
+      observer.observe(div[41]);
+      observer.observe(div[42]);
+      observer.observe(div[43]);
+      observer.observe(div[44]);
+      observer.observe(div[45]);
+      observer.observe(div[46]);
+      observer.observe(div[47]);
+      observer.observe(div[48]);
+      observer.observe(div[49]);
+      observer.observe(div[50]);
+      observer.observe(div[51]);
+      observer.observe(div[52]);
+      observer.observe(div[53]);
+      observer.observe(div[54]);
+      observer.observe(div[55]);
+      observer.observe(div[56]);
+      observer.observe(div[57]);
+      observer.observe(div[58]);
+      observer.observe(div[59]);
+      observer.observe(div[60]);
+      observer.observe(div[61]);
+      observer.observe(div[62]);
+      observer.observe(div[63]);
+      observer.observe(div[64]);
+      observer.observe(div[65]);
+      observer.observe(div[66]);
+      observer.observe(div[67]);
+      observer.observe(div[68]);
+      observer.observe(div[69]);
+      observer.observe(div[70]);
+      observer.observe(div[71]);
+      observer.observe(div[72]);
+      observer.observe(div[73]);
+      observer.observe(div[74]);
+      observer.observe(div[75]);
+      observer.observe(div[76]);
+    </script>
   </body>
   <script>
     const button1 = document.getElementById('button1');

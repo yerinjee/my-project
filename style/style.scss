@@ -3,6 +3,9 @@
 *::before {
   box-sizing: border-box;
 }
+li {
+  list-style: none;
+}
 
 @font-face {
   font-family: 'SUIT-Regular';
@@ -613,4 +616,87 @@ button:hover {
 
 .button__float:hover {
   background-color: #fff;
+}
+
+.swiper {
+  width: 1230px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img2 {
+  width: 1230px;
+}
+
+.title_3 {
+  padding-top: 200px;
+  font-weight: 900;
+  line-height: 1.1;
+  font-size: 3rem;
+  letter-spacing: -0.01em;
+}
+
+.title_4 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+.container_3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.subbox2 {
+  background-color: #ffffff;
+
+  padding: 24px;
+  padding-left: 0;
+  width: 1230px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+
+  display: flex;
+
+  line-height: 1.5;
+  margin-left: 0;
+}
+
+.subbox_5 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  padding-right: 50px;
+  color: #381fd1;
+}
+
+.subbox_6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  padding-right: 100px;
+}
+
+.subbox_8 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.5px;
+}
+
+.subbox_7 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  padding-right: 50px;
+}
+
+div {
+  opacity: 50;
+  transition: all 0.8s;
 }
