@@ -4,8 +4,420 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my project</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="practice.js"></script>
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $('.mainSlide').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
   </head>
+  <script
+    src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+    type="module"
+  ></script>
+  <script src="practice.js"></script>
   <body>
-    <h1>ss</h1>
+    <div class="mainimage" id="section9">
+      <dotlottie-player
+        src="https://lottie.host/ea80b1d5-0a42-4ae1-85fb-aa13cc0b1d50/D03UaNMUjd.json"
+        background="transparent"
+        speed="1"
+        style="width: 1000px; height: 1000px"
+        loop
+        autoplay
+      ></dotlottie-player>
+      <div class="mainfont">
+        <p>Hello, I'm <a class="colorname">Yerin Ji.</a></p>
+        <p>This Is My Final Project.</p>
+        <button id="button1" class="button button__01" type="button">
+          View my work
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="ml-1"
+          >
+            <path
+              d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="container container__box" id="section1"></div>
+    <header class="section navigation">
+      <ol class="navigation__menu-group">
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+
+        <li class="navigation__menu-group-pos">
+          <button id="button6" class="button__1" type="button">HOME</button>
+        </li>
+        <li class="navigation__menu-group-pos">
+          <button id="button2" class="button__2" type="button">ABOUT</button>
+        </li>
+        <li class="navigation__menu-group-pos">
+          <button id="button3" class="button__3" type="button">
+            MOMENTO
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-1"
+            >
+              <path
+                d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </button>
+        </li>
+        <li class="navigation__menu-group-pos">
+          <button id="button4" class="button__4" type="button">
+            GRAINS
+
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-1"
+            >
+              <path
+                d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </button>
+        </li>
+        <li class="navigation__menu-group-pos">
+          <button id="button5" class="button__4" type="button">
+            SUMMER
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-1"
+            >
+              <path
+                d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </button>
+        </li>
+      </ol>
+    </header>
+
+    <main>
+      <div class="container_2">
+        <div class="sidebar">
+          <p class="fontsize1">나의 정보</p>
+          <div class="subbox">
+            <img src="./image/yerin.JPG" class="img1" />
+            <p class="subbox_1">커뮤니케이션디자인</p>
+            <p class="subbox_2">202221498학번 지예린</p>
+          </div>
+          <ol class="cate_1">
+            <p class="linenono">작품 보러가기</p>
+            <p class="lineno">*클릭하면 이동합니다</p>
+            <li class="cate_1 cate_1_1">- &nbsp;&nbsp;MOMENTO</li>
+            <li class="cate_1 cate_1_2">- &nbsp;&nbsp;GRAINS</li>
+            <li class="cate_1 cate_1_3">- &nbsp;&nbsp;SUMMER</li>
+          </ol>
+        </div>
+        <div class="card-collection" id="section2">
+          <div class="title">
+            <p class="title title_float">About Me</p>
+            <p class="title title_1">About</p>
+            <p class="title title_2">
+              I am a college student who is <br />majoring in graphic design
+              living in Cheonan.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card__top">
+              <p class="card__author"></p>
+
+              <p class="card__author-role">Interaction</p>
+            </div>
+
+            <div class="card__bottom">
+              <p class="card__title">
+                고정적인 웹사이트보다 인터랙티브한<br />
+                웹디자인을 선호하여 여러 상호작용 기능들을<br />
+                중점으로 디자인했습니다.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__top">
+              <p class="card__author"></p>
+              <p class="card__author-role">Responsive</p>
+            </div>
+
+            <div class="card__bottom">
+              <p class="card__title">
+                사용하기 쉽고 직관적인 UX/UI를 선호하며<br />
+                반응형 웹사이트를 지향하며 제작하였습니다.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__top">
+              <p class="card__author"></p>
+              <p class="card__author-role">Hobby</p>
+            </div>
+
+            <div class="card__bottom">
+              <p class="card__title">
+                저의 최근 취미는 음악 페스티벌 다니기<br />
+                입니다. 밴드음악을 좋아해서 공연에 다니는<br />
+                것을 좋아합니다.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__top">
+              <p class="card__author"></p>
+              <p class="card__author-role">Goals</p>
+            </div>
+
+            <div class="card__bottom">
+              <p class="card__title">
+                어렸을 적부터 영화에 관심이 많아<br />
+                타이틀시퀀스 디자이너를 목표로 하고 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mainSlide">
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+        <div><img src="./image/1.JPG" class="img1" /></div>
+      </div>
+    </main>
+    <div class="footer_container">
+      <div class="footer">
+        <div class="footer_1">
+          <p class="footer_title">USE CASES</p>
+          <p class="footer_sub">For Designers</p>
+          <p class="footer_sub">For Developers</p>
+          <p class="footer_sub">For Product Managers</p>
+          <p class="footer_sub">For Compliance Managers</p>
+        </div>
+        <div class="footer_2">
+          <p class="footer_title">RESOURCES</p>
+          <p class="footer_sub">Blog</p>
+          <p class="footer_sub">Library</p>
+          <p class="footer_sub">Release Notes</p>
+          <p class="footer_sub">Slack Community</p>
+        </div>
+        <div class="footer_3">
+          <p class="footer_title">HELP</p>
+          <p class="footer_sub">My Account</p>
+          <p class="footer_sub">Support Docs</p>
+          <p class="footer_sub">Contact Us</p>
+          <p class="footer_sub">Feature Requests</p>
+        </div>
+        <div class="footer_4">
+          <p class="footer_title">COMPANY</p>
+          <p class="footer_sub">Stark Framework</p>
+          <p class="footer_sub">Privacy Policy</p>
+          <p class="footer_sub">Terms of Service</p>
+          <p class="footer_sub">Code of Conduct</p>
+        </div>
+        <div class="footer_5">
+          <p class="footer_title">SECURITY</p>
+          <p class="footer_sub">Security Overview</p>
+          <p class="footer_sub">Cookie Policy</p>
+          <p class="footer_sub">GDPR</p>
+          <p class="footer_sub">Status</p>
+        </div>
+        <div class="footer_6">
+          <p class="footer_title">DESIGN INTEGRATIONS</p>
+          <p class="footer_sub">Stark for Figma</p>
+          <p class="footer_sub">Stark for FigJam</p>
+          <p class="footer_sub">Stark for Sketch</p>
+          <p class="footer_sub">Stark for Adobe XD</p>
+        </div>
+        <div class="footer_7">
+          <p class="footer_title">DEVELOPER INTEGRATIONS</p>
+          <p class="footer_sub">Stark for Chrome</p>
+          <p class="footer_sub">Stark for Firefox</p>
+          <p class="footer_sub">Stark for Edge</p>
+          <p class="footer_sub">Stark for Safari</p>
+          <p class="footer_sub">Stark for Arc</p>
+          <p class="footer_sub">Stark for Brave</p>
+        </div>
+        <p></p>
+        <div class="footerbox">
+          <div class="img__boxbox">
+            <img
+              alt="Stark's Twitter account link"
+              src="https://images.getstark.co/marketing/social-media/twitter.png"
+              class="w-8"
+            />
+            <img
+              alt="Stark's Instagram account link"
+              src="https://images.getstark.co/marketing/social-media/instagram.png"
+              class="w-8"
+            />
+            <img
+              alt="Stark's Slack account link"
+              src="https://images.getstark.co/marketing/social-media/slack.png"
+              class="w-8"
+            />
+            <img
+              alt="Stark's LinkedIn account link"
+              src="https://images.getstark.co/marketing/social-media/share-linkedin.webp"
+              class="w-8"
+            />
+            <img
+              alt="Stark's YouTube account link"
+              src="https://images.getstark.co/marketing/social-media/youtube.png"
+              class="w-8"
+            />
+
+            <p class="last">
+              MADE REMOTELY WITH LOVE BY STARK LAB, INC. COPYRIGHT 2023
+            </p>
+          </div>
+          <p class="last_1">
+            MADE REMOTELY WITH LOVE BY STARK LAB, INC. COPYRIGHT 2023
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <button
+      id="buttontop"
+      class="button__float"
+      type="button"
+      href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support"
+    >
+      <div class="svg__float">GO TOP</div>
+    </button>
+
+    <div class="cursor rounded"></div>
+    <div class="cursor pointed"></div>
+
+    <script src="practice.js"></script>
   </body>
+  <script>
+    const button1 = document.getElementById('button1');
+    const section1 = document.getElementById('section1');
+
+    button1.addEventListener('click', () => {
+      window.scrollBy({
+        top: section1.getBoundingClientRect().top,
+        behavior: 'smooth',
+      });
+    });
+  </script>
+  <script>
+    const button6 = document.getElementById('button6');
+    const section9 = document.getElementById('section9');
+
+    button6.addEventListener('click', () => {
+      window.scrollBy({
+        top: section9.getBoundingClientRect().top,
+        behavior: 'smooth',
+      });
+    });
+  </script>
+  <script>
+    const buttontop = document.getElementById('buttontop');
+    const section9 = document.getElementById('section9');
+
+    buttontop.addEventListener('click', () => {
+      window.scrollBy({
+        top: section9.geFtBoundingClientRect().top,
+        behavior: 'smooth',
+      });
+    });
+  </script>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
+    type="text/javascript"
+  ></script>
+
+  <script type="text/javascript">
+    $(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() != 0) {
+          $('#buttontop').fadeIn();
+        } else {
+          $('#buttontop').fadeOut();
+        }
+      });
+
+      $('#buttontop').click(function () {
+        $('body,html').animate({ scrollTop: 0 }, 800);
+      });
+    });
+  </script>
 </html>
