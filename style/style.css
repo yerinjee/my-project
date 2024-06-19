@@ -635,7 +635,7 @@ button:hover {
 }
 
 .title_3 {
-  padding-top: 200px;
+  padding-top: 150px;
   font-weight: 900;
   line-height: 1.1;
   font-size: 3rem;
@@ -764,15 +764,15 @@ hr {
 }
 
 .cover:nth-child(1) {
-  margin-top: 100vh;
+  margin-top: 50vh;
   transform: rotate(-2deg);
-  background-color: #ff3796;
+  background-color: #381fd1;
+  color: #fff;
 }
 
 .cover:nth-child(2) {
   transform: rotate(2deg);
-  background-color: #381fd1;
-  color: #fff;
+  background-color: #ebeb9c;
   justify-content: flex-end;
 }
 
@@ -783,12 +783,33 @@ hr {
 
 .cover:nth-child(4) {
   transform: rotate(2deg);
-  background-color: #9992fd;
+  background-color: #381fd1;
   justify-content: flex-end;
+  color: #fff;
 }
 
 .cover:nth-child(5) {
   transform: rotate(-2deg);
   background-color: #f6cd7c;
   justify-content: flex-end;
+}
+
+.coc {
+  height: 60px;
+}
+
+.title_9 {
+  padding-top: 270px;
+  font-weight: 900;
+  line-height: 1.1;
+  font-size: 3rem;
+  letter-spacing: -0.01em;
+}
+
+.title_8 {
+  padding-top: 200px;
+  font-weight: 900;
+  line-height: 1.1;
+  font-size: 3rem;
+  letter-spacing: -0.01em;
 }
