@@ -762,7 +762,7 @@ hr {
 }
 
 .cover:nth-child(1) {
-  margin-top: 10vh;
+  margin-top: 100vh;
   transform: rotate(-2deg);
   background-color: #ff3796;
 }
@@ -781,7 +781,11 @@ hr {
 
 .cover:nth-child(4) {
   transform: rotate(2deg);
-  background-color: #00faac;
+  background-color: #9992fd;
   justify-content: flex-end;
-  margin-bottom: 50vh;
+}
+.cover:nth-child(5) {
+  transform: rotate(-2deg);
+  background-color: #f6cd7c;
+  justify-content: flex-end;
 }

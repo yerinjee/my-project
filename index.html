@@ -421,18 +421,6 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
-      <div class="cover">
-        <p class="first-parallel"></p>
-      </div>
-      <div class="cover">
-        <p class="second-parallel"></p>
-      </div>
-      <div class="cover">
-        <p class="third-parallel"></p>
-      </div>
-      <div class="cover">
-        <p class="forth-parallel"></p>
-      </div>
     </main>
     <div class="footer_container">
       <div class="footer">
@@ -665,6 +653,10 @@
         count2 = marqueeText(count2, pTag2, 1);
         count3 = marqueeText(count3, pTag3, -1);
         count4 = marqueeText(count4, pTag4, 1);
+        count5 = marqueeText(count1, pTag1, -1);
+        count6 = marqueeText(count2, pTag2, 1);
+        count7 = marqueeText(count3, pTag3, -1);
+        count8 = marqueeText(count4, pTag4, 1);
 
         window.requestAnimationFrame(animate);
       }
@@ -674,6 +666,10 @@
         count2 += 15;
         count3 += 15;
         count4 += 15;
+        count5 += 15;
+        count6 += 15;
+        count7 += 15;
+        count8 += 15;
       }
 
       window.addEventListener('scroll', scrollHandler);
