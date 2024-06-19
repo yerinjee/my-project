@@ -700,3 +700,18 @@ div {
   opacity: 50;
   transition: all 0.8s;
 }
+
+iframe {
+  display: block;
+}
+
+.yt-video {
+  margin-inline: auto;
+}
+
+#video1 {
+  aspect-ratio: 560 / 315;
+  width: 1230px;
+  height: 697px;
+  padding-bottom: 100px;
+}
